@@ -42,6 +42,6 @@ void loop()
     else if(Incoming_value == '3')       
       digitalWrite(7, HIGH);
     else if(Incoming_value == '4')       
-      digitalWrite(7, LOW);
+      digitalWrite(7, LOW); // comment
   }
 } 
